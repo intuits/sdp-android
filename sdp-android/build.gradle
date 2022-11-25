@@ -108,7 +108,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.intuits'
                 artifactId = 'sdp'
-                version = '1.3'
+                version = '1.4'
             }
         }
     }
