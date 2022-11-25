@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.library'
+    id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
     id 'org.jetbrains.kotlin.android'
     id 'maven-publish'
 }
@@ -10,8 +11,6 @@ android {
     defaultConfig {
         minSdk 16
         targetSdk 32
-        versionCode 1
-        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -108,9 +107,7 @@ afterEvaluate {
             mavenJava(MavenPublication) {
                 groupId = 'com.intuits'
                 artifactId = 'sdp'
-                version = '1.0'
-
-                from components.java
+                version = '1.2'
             }
         }
     }
