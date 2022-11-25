@@ -7,6 +7,8 @@ pluginManagement {
             url 'https://maven.google.com/'
             name 'Google'
         }
+        jcenter()
+        maven { url 'https://jitpack.io' }
     }
 }
 dependencyResolutionManagement {
@@ -18,6 +20,8 @@ dependencyResolutionManagement {
             url 'https://maven.google.com/'
             name 'Google'
         }
+        jcenter()
+        maven { url 'https://jitpack.io' }
     }
 }
 rootProject.name = "sdp"
