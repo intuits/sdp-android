@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-installations:17.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cdc0673d533b6948a34d1bb9c9facbac/transformed/firebase-installations-17.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eb78fa0746fc0a45eaed670dd4b0a940/transformed/firebase-installations-17.0.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3b074e997caa1a501363a03e45bb42d5/transformed/firebase-installations-17.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3b074e997caa1a501363a03e45bb42d5/transformed/firebase-installations-17.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3b074e997caa1a501363a03e45bb42d5/transformed/firebase-installations-17.0.0/AndroidManifest.xml" />

@@ -1,11 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.datatransport:transport-backend-cct:3.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d46fa80187cc93ad6ef994874fd010f5/transformed/transport-backend-cct-3.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/917fae520faa486d04d4efd46193a252/transformed/transport-backend-cct-3.0.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b5351363cdf97d702da1de4fc215a0f4/transformed/transport-backend-cct-3.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b5351363cdf97d702da1de4fc215a0f4/transformed/transport-backend-cct-3.0.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b5351363cdf97d702da1de4fc215a0f4/transformed/transport-backend-cct-3.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b5351363cdf97d702da1de4fc215a0f4/transformed/transport-backend-cct-3.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.datatransport/transport-backend-cct/3.0.0/7f506fe3498cda976d1b350c218464a0f1974982/transport-backend-cct-3.0.0-javadoc.jar!/" />
