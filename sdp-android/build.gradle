@@ -1,6 +1,5 @@
 plugins {
     id 'com.android.library'
-    id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
     id 'org.jetbrains.kotlin.android'
     id 'maven-publish'
 }
@@ -104,10 +103,11 @@ createSDP{
 afterEvaluate {
     publishing {
         publications {
-            mavenJava(MavenPublication) {
+            release(MavenPublication) {
+                from components.release
                 groupId = 'com.intuits'
                 artifactId = 'sdp'
-                version = '1.2'
+                version = '1.3'
             }
         }
     }
