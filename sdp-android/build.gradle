@@ -108,7 +108,7 @@ afterEvaluate {
             mavenJava(MavenPublication) {
                 groupId = 'com.intuits'
                 artifactId = 'sdp'
-                version = '1.1.8'
+                version = '1.0'
 
                 from components.java
             }
