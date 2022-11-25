@@ -13,6 +13,7 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 32
+        multiDexEnabled true
     }
 
     compileOptions {
@@ -25,6 +26,7 @@ dependencies {
     implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
     implementation "androidx.core:core-ktx:1.7.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.multidex:multidex:2.0.1'
 }
 afterEvaluate {
     publishing {
@@ -33,7 +35,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.jitpack'
                 artifactId = 'sdp-android'
-                version = '1.1.5'
+                version = '1.1.6'
 
             }
         }
